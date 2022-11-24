@@ -1,3 +1,5 @@
+package SortingMethods;
+
 public class BubbleSort {
     static String arrayToString(int[] array) {
         StringBuilder stringBuilder = new StringBuilder();
@@ -19,7 +21,7 @@ public class BubbleSort {
 
     }
 
-    // this is the dumbest BubbleSort
+    // this is the dumbest SortingMethods.BubbleSort
     static int[] dumbBubbleSort(int[] array){
         for (int i = 0; i<array.length-1 ; i++) {
             for (int j = 0; j < array.length - 1; j++) {
